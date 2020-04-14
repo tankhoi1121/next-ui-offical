@@ -7,10 +7,10 @@ class Item extends Component {
     return (
       <tbody>
         <tr>
-          <td>{p.regionId}</td>
-          <td>{p.cityName}</td>
-          <td>{p.stateName}</td>
-          <td>{p.cityPopulation}</td>
+          <td>{p.regionid}</td>
+          <td>{p.cityname}</td>
+          <td>{p.statename}</td>
+          <td>{p.citypopulation}</td>
           <td>{p.area}</td>
         </tr>
       </tbody>

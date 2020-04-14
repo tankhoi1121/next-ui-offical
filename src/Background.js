@@ -16,9 +16,9 @@ class Background extends Component {
     this.setState({ isLoading: true });
     const config = {
       method: "POST",
-      url: "http://localhost:5000/api/City/GetCity",
+      url: "https://khointnextio20200330190415.azurewebsites.net/api/City/GetCity",
       headers: {
-        "Access-Control-Request-Headers": "http://localhost:5000",
+        "Access-Control-Request-Headers": "https://khointnextio20200330190415.azurewebsites.net",
         "Content-Type": "application/json"
       }
     };
